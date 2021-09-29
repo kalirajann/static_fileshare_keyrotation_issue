@@ -31,8 +31,6 @@ kube-system       daemon-set-controller-token-fsmhj                kubernetes.io
 kube-system       default-token-chdd4                              kubernetes.io/service-account-token   3      12h
 kube-system       deployment-controller-token-6blxw                kubernetes.io/service-account-token   3      12h
 kube-system       disruption-controller-token-r57j2                kubernetes.io/service-account-token   3      12h
-  
-  ```
 kube-system       endpoint-controller-token-h2nkx                  kubernetes.io/service-account-token   3      12h
 kube-system       endpointslice-controller-token-r4x8d             kubernetes.io/service-account-token   3      12h
 kube-system       endpointslicemirroring-controller-token-wktxj    kubernetes.io/service-account-token   3      12h
@@ -66,3 +64,4 @@ kube-system       tunnelend                                        Opaque       
 kube-system       tunnelfront                                      Opaque                                2      12h
 kube-system       tunnelfront-tls                                  Opaque                                2      12h
 kube-system       tunnelfront-token-mhgw9                          kubernetes.io/service-account-token   3      12h
+```
