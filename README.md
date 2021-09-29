@@ -11,7 +11,7 @@ Mounting command: mount
 Mounting arguments: -t cifs -o dir_mode=0777,file_mode=0777,uid=1000,gid=1000,mfsymlinks,nobrl,actimeo=30,<masked> //xxxxxxx.file.core.windows.net/sample1 /var/lib/kubelet/plugins/kubernetes.io/csi/pv/pv-azure-file-static/globalmount
 Output: mount error(13): Permission denied"
   
-  
+ ``` 
   PS C:\Users\kavia\manifest\fs> kubectl get secrets --all-namespaces
 NAMESPACE         NAME                                             TYPE                                  DATA   AGE
 default           default-token-smdwt                              kubernetes.io/service-account-token   3      12h
@@ -31,6 +31,8 @@ kube-system       daemon-set-controller-token-fsmhj                kubernetes.io
 kube-system       default-token-chdd4                              kubernetes.io/service-account-token   3      12h
 kube-system       deployment-controller-token-6blxw                kubernetes.io/service-account-token   3      12h
 kube-system       disruption-controller-token-r57j2                kubernetes.io/service-account-token   3      12h
+  
+  ```
 kube-system       endpoint-controller-token-h2nkx                  kubernetes.io/service-account-token   3      12h
 kube-system       endpointslice-controller-token-r4x8d             kubernetes.io/service-account-token   3      12h
 kube-system       endpointslicemirroring-controller-token-wktxj    kubernetes.io/service-account-token   3      12h
